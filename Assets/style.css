@@ -1,0 +1,30 @@
+:root {
+
+}
+
+header {
+    background-color: aquamarine;
+}
+
+.container {
+    border: dotted;
+    justify-items: center;
+}
+
+.row {
+
+}
+
+.col-4 {
+    background-color: lightgray;
+    height: auto;
+    border-style: solid;
+    border-right: solid;
+}
+
+.col-8 {
+    background-color: lightgray;
+    height: auto;
+    border-style: solid;
+    border-right: solid;
+}
