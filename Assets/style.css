@@ -16,6 +16,32 @@ header {
 }
 
 .col-4 {
+    align-content: end;
+}
+
+h2 {
+    text-align: end;
+}
+
+#project-col-1 {
+    background-color: aqua;
+    height: 100%;
+}
+
+div img {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+}
+
+.col-4 {
     background-color: lightgray;
     height: auto;
     border-style: solid;
