@@ -23,17 +23,23 @@ header{
 .main{
     display: flex;
     flex: 1;
+    justify-content: space-between;
 }
 
 .main h4 {
     text-decoration: underline;
 }
 
+#project-1 {
+    width: 400px;
+    height: 400px;
+}
+
 .main img {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     padding: 10px;
-    margin: ;
+    margin: 10px;
 }
 
 
