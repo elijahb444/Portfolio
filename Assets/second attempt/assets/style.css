@@ -40,8 +40,8 @@ main {
 
 #project-1 {
     display: block;
-    width: 500px;
-    height: 500px;
+    width: 70%;
+    height: 70%;
     align-self: center;
     justify-content: center;
     margin: 0 150px 10px 150px;
@@ -73,10 +73,16 @@ div img {
     flex: 1 1 100px;
 }
 
+.left p {
+    font-size: 15px;
+    line-height: auto;
+}
+
 #avatar {
     width: 80px;
     height: 80px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 main{
@@ -94,4 +100,13 @@ main{
 footer{
     background-color: cornflowerblue;
     padding: 1em 0 1em 0;
+}
+
+@media all and (max-width: 550px) {
+    .main {
+        flex-direction: column;
+    }
+    main {
+        padding: 5em 0 5em 0;
+    }
 }
