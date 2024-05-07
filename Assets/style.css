@@ -11,16 +11,18 @@ header {
     justify-items: center;
 }
 
-.row {
+.col-4  h2{
+    align-content: end;
 
 }
 
-.col-4 {
-    align-content: end;
+.col-4 img {
+    float: right;
 }
 
 h2 {
     text-align: end;
+    justify-self: top;
 }
 
 #project-col-1 {
@@ -36,9 +38,10 @@ div img {
 }
 
 img {
+    flex: auto;
     width: 180px;
     height: 180px;
-    margin: 5px;
+    padding: 10px;
 }
 
 .col-4 {
