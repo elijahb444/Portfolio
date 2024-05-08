@@ -5,7 +5,7 @@
 
 body {
     height: 95vh;
-    background-color: aqua;
+    background-color: white;
     font-family: sans-serif;
     text-align: center;
     color: white;
@@ -49,20 +49,32 @@ main {
     padding: 15px;
 }
 
-#project-1 {
-    display: block;
-    width: 70%;
-    height: 70%;
-    align-self: center;
-    justify-content: center;
-    margin: 0 150px 10px 150px;
-}
-
 div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+}
+
+div a {
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.card-1 {
+    position: relative;
+}
+
+
+#project-1 {
+    display: block;
+    width: 70%;
+    height: 100%;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 #project-2 {
@@ -87,7 +99,7 @@ div img {
 .left p {
     font-size: 20px;
     line-height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 #avatar {
