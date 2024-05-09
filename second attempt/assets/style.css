@@ -1,0 +1,174 @@
+:root {
+
+    --red: #ED2E3D;
+    --yellow: #F2C840;
+
+    
+}
+
+
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 95vh;
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    background-color: var(--red);
+    padding: 2em 0 2em 0;
+    border: solid black;
+}
+
+nav {
+    display: flex;
+    background-color: var(--red);
+    border: 10px solid var(--yellow);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.main h4 {
+    text-decoration: underline;
+    padding: 15px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+div a {
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+}
+
+div a p {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 90%;
+}
+
+.card-1 {
+    position: relative;
+}
+
+#project-1 {
+    display: block;
+    width: 70%;
+    height: 100%;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto 50px;
+}
+
+#project-2 {
+    display: block;
+}
+
+div img {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 15px;
+    border: 10px solid var(--yellow);
+}
+
+
+.left{
+    background-color: var(--red);
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+.left p {
+    font-size: 20px;
+    line-height: auto;
+    margin-bottom: 25px;
+}
+
+#avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main{
+    background-color: var(--red);
+    padding: 3em 0 3em 0;
+    flex: 5 5 150px;
+}
+
+.right{
+    background-color: var(--red);
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+.right li {
+    list-style-type: none;
+}
+
+.right ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0 20px 0 20px;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+
+.right a {
+    display: block;
+    color: white;
+    text-decoration: white;
+}
+
+
+footer{
+    background-color: var(--red);
+    padding: 1em 0 1em 0;
+}
+
+@media all and (max-width: 550px) {
+    .main {
+        flex-direction: column;
+    }
+    main {
+        padding: 5em 0 5em 0;
+    }
+}
