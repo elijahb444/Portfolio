@@ -1,3 +1,12 @@
+:root {
+
+    --red: #ED2E3D;
+    --yellow: #F2C840;
+
+    
+}
+
+
 * {
     margin: 5px;
     box-sizing: border-box;
@@ -6,7 +15,7 @@
 body {
     height: 95vh;
     background-color: white;
-    font-family: sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: white;
     font-size: 24px;
@@ -16,13 +25,15 @@ body {
 }
 
 header{
-    background-color:cornflowerblue;
+    background-color: var(--red);
     padding: 2em 0 2em 0;
+    border: solid black;
 }
 
 nav {
     display: flex;
-    background-color: brown;
+    background-color: var(--red);
+    border: 10px solid var(--yellow);
 }
 
 nav a {
@@ -60,7 +71,13 @@ div a {
     display: inline-block;
     align-content: center;
     justify-content: center;
-    
+}
+
+div a p {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 90%;
 }
 
 .card-1 {
@@ -73,7 +90,7 @@ div a {
     height: 100%;
     align-self: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 
 #project-2 {
@@ -86,11 +103,12 @@ div img {
     height: 250px;
     padding: 10px;
     margin: 15px;
+    border: 10px solid var(--yellow);
 }
 
 
 .left{
-    background-color: cornflowerblue;
+    background-color: var(--red);
     padding: 3em 0 3em 0;
     flex: 1 1 100px;
 }
@@ -109,13 +127,13 @@ div img {
 }
 
 main{
-    background-color: cornflowerblue;
+    background-color: var(--red);
     padding: 3em 0 3em 0;
     flex: 5 5 150px;
 }
 
 .right{
-    background-color: cornflowerblue;
+    background-color: var(--red);
     padding: 3em 0 3em 0;
     flex: 1 1 100px;
 }
@@ -130,6 +148,7 @@ main{
     align-content: center;
     padding: 0 20px 0 20px;
     flex-direction: column;
+    margin-bottom: 200px;
 }
 
 
@@ -141,7 +160,7 @@ main{
 
 
 footer{
-    background-color: cornflowerblue;
+    background-color: var(--red);
     padding: 1em 0 1em 0;
 }
 
