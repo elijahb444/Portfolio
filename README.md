@@ -3,7 +3,7 @@
 # Description
 
 The reasons for this project are twofold: 
-Firstly, to further my understanding of both HTML and CSS by applying it and building a true website from scratch. This process was not without its ordeals, but I suppose that was the point. 
+Firstly, to further my understanding of both HTML and CSS by applying it and building a true website from scratch. In addition, it was an avenue for me to explore and (begin) to understand creating responsive websites suitable for any viewport. This process was not without its ordeals, but I suppose that was the point. 
 Secondly, and perhaps more importantly, this project serves as a portfolio for any future hiring teams/interested parties. Pretty haughty of me, I know. 
 
 The portfolio, while live, is still far from complete. As I learn and build and grow, so too will the portfolio. But, feel free to take a look now. 
