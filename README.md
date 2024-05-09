@@ -1,6 +1,6 @@
-## Portfolio
+# Portfolio
 
-# Description
+## Description
 
 The reasons for this project are twofold: 
 Firstly, to further my understanding of both HTML and CSS by applying it and building a true website from scratch. In addition, it was an avenue for me to explore and (begin) to understand creating responsive websites suitable for any viewport. This process was not without its ordeals, but I suppose that was the point. 
