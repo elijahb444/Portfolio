@@ -10,7 +10,7 @@ Secondly, and perhaps more importantly, this project serves as a portfolio for a
 
 The portfolio, while live, is still far from complete. As I learn and build and grow, so too will the portfolio. But, feel free to take a look now. 
 
-link: https://elijahb444.github.io/homework-2/ 
+link: https://elijahb444.github.io/Portfolio/
 
 In case the idea of clicking on the link above seems repulsive to you, have an image instead:
 
