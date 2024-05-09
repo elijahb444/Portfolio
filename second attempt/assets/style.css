@@ -2,6 +2,8 @@
 
     --red: #ED2E3D;
     --yellow: #F2C840;
+    --primary-padding: 3em 0 3em 0;
+
 
     
 }
@@ -109,7 +111,7 @@ div img {
 
 .left{
     background-color: var(--red);
-    padding: 3em 0 3em 0;
+    padding: var(--primary-padding);
     flex: 1 1 100px;
 }
 
@@ -128,13 +130,13 @@ div img {
 
 main{
     background-color: var(--red);
-    padding: 3em 0 3em 0;
+    padding: var(--primary-padding);
     flex: 5 5 150px;
 }
 
 .right{
     background-color: var(--red);
-    padding: 3em 0 3em 0;
+    padding: var(--primary-padding);
     flex: 1 1 100px;
 }
 
